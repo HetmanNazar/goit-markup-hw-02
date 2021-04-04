@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 1600px;
+  margin: auto;
+}
+header {
+  background: rgb(255, 255, 255);
+  height: 80px;
+}
+.logo {
+  font-size: 26px;
+  margin-left: 215px;
+  padding-top: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+ul {
+  padding-top: 25px;
+}
+li {
+  list-style: none;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: #212121;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+a:hover {
+  color: #2196f3;
+}
+a:focus {
+  color: #2196f3;
+}
+.main_bg {
+  height: 600px;
+  background: #2f303a;
+}
