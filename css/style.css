@@ -30,6 +30,10 @@ span {
 .menu_item {
   margin: 0 25px;
 }
+/* link color */
+.lk {
+  color: #757575;
+}
 .links_holder {
   margin-left: 271px;
 }
@@ -134,7 +138,7 @@ img {
   width: 270px;
   height: 260px;
 }
-h4 {
+.team_card {
   display: block;
   font-size: 16px;
   font-weight: 500;
@@ -151,6 +155,7 @@ footer {
   background: #2f303a;
   color: #fff;
 }
+
 footer address a {
   color: rgba(255, 255, 255, 0.6);
   display: block;
@@ -172,10 +177,8 @@ address p {
 .bot_link {
   padding-bottom: 60px;
 }
-h5 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 200%;
+.p_color a {
+  color: #2196f3;
 }
 .pdd {
   padding: 20px 0 0 24px;
@@ -213,6 +216,9 @@ h5 {
 }
 .card_portfolio {
   padding: 50px 0 64px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
 }
 .card_portfolio li {
   display: inline-block;
