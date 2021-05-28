@@ -168,9 +168,18 @@ span {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  background: #2196f3;
-  color: #ffffff;
+  background: #f5f4fa;
   cursor: pointer;
+  padding: 6px 22px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border-color: inherit;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background: #2196f3;
 }
 .portfolio-card-holder {
   list-style: none;
